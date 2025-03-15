@@ -26,7 +26,7 @@
 
       <!-- SECTION I: Claims required for user journeys to work properly -->
 
-      <ClaimType Id="socialIdpUserId">
+      <ClaimType Id="issuerUserId">
         <DisplayName>Username</DisplayName>
         <DataType>string</DataType>
         <UserHelpText/>
