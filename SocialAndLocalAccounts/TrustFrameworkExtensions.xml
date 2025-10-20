@@ -23,7 +23,7 @@
       <TechnicalProfiles>
         <TechnicalProfile Id="Facebook-OAUTH">
           <Metadata>
-            <Item Key="client_id">facebook_clientid</Item>
+            <Item Key="client_id">f9e7ff2b-dece-44c7-afdd-e354d33e1b57</Item>
             <Item Key="scope">email public_profile</Item>
             <Item Key="ClaimsEndpoint">https://graph.facebook.com/me?fields=id,first_name,last_name,name,email</Item>
           </Metadata>
@@ -37,8 +37,8 @@
       <TechnicalProfiles>
          <TechnicalProfile Id="login-NonInteractive">
           <Metadata>
-            <Item Key="client_id">ProxyIdentityExperienceFrameworkAppId</Item>
-            <Item Key="IdTokenAudience">IdentityExperienceFrameworkAppId</Item>
+            <Item Key="client_id">f9e7ff2b-dece-44c7-afdd-e354d33e1b57</Item>
+            <Item Key="IdTokenAudience">f9e7ff2b-dece-44c7-afdd-e354d33e1b57</Item>
           </Metadata>
           <InputClaims>
             <InputClaim ClaimTypeReferenceId="client_id" DefaultValue="ProxyIdentityExperienceFrameworkAppId" />
